@@ -41,6 +41,8 @@ function App() {
         {text: "Senior mentor", dataField: "data.11", formatter: mentorActivityFormatter, events: events_dat})
 
     var faker = require('faker');
+    faker.locale = "ru";
+
     let persons = []
     for (let i = 0; i < 18;
          i++
