@@ -38,6 +38,8 @@ function Example(props) {
                             <th>#</th>
                             <th>Дата</th>
                             <th>Сеньор ментор (добавил)</th>
+                            <th>Обучаемый</th>
+                            <th>Статус</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -45,16 +47,22 @@ function Example(props) {
                             <td>1</td>
                             <td>25.02.2021</td>
                             <td>Otto, 26.02.2021</td>
+                            <td>Иван</td>
+                            <td>+</td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>10.03.2021</td>
                             <td>Thornton, 12.03.2021</td>
+                            <td>Петр</td>
+                            <td>--</td>
                         </tr>
                         <tr>
                             <td>3</td>
                             <td>12.03.2021</td>
                             <td>Emma, 12.03.2021</td>
+                            <td>Мария</td>
+                            <td>--</td>
                         </tr>
                         </tbody>
                     </Table>
